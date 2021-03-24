@@ -11,10 +11,14 @@
   </head>
   <body>
 
+    <div class="container">
+      <div id="root" class="container">
+        <input v-model="message" placeholder="type your name here">
+        <h1>Hello {{ message }}!</h1>
+        <h2>I am Camillo ✌</h2>
+        <img id="camillo" v-bind:src="img" alt="miao">
+      </div>
 
-    <div id="root">
-      <input v-model="message" placeholder="scrivi il tuo nome">
-      <h1>Hello {{ message }}!</h1>
     </div>
 
     <!-- javascript link -->
